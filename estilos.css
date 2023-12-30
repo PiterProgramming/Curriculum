@@ -1,0 +1,46 @@
+/*Padding: Es el margen (por así decirlo) en el que pone todos los lados, cómo para centrarlo e irlo encerrando */
+
+/* Width: Define el tamaño, si solo pongo esto, no tengo que poner height, ya que la da por automatico, 
+si quiero que sean diferentes, tengo que especificar width y height */
+
+* {
+    margin: 0.5;
+    padding: 0.5;
+    box-sizing: border-box;
+}
+
+.contenedor-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foto-de-perfil {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.columna-derecha {
+    border: 2px;
+    background-color: rgb(6, 65, 65);
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.columna-izquierda {
+    border: 2px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.barra-inferior {
+    border: 2px;
+    background-color:rgb(0, 62, 128);
+    color: white;
+    padding:20px;
+    width: 100%;
+}
