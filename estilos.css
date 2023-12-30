@@ -15,7 +15,7 @@ si quiero que sean diferentes, tengo que especificar width y height */
     gap: 20px;
 }
 
-.foto-de-perfil {
+.perfil {
     width: 200px;
     display: block;
     margin: auto;
